@@ -83,11 +83,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 blogPosts.forEach((blogPost) => {
   blogPost.addEventListener('mouseout', () => {
-    blogPost.classList.toggle('purple');
+    blogPost.classList.toggle('purple')
   })
 
   blogPost.addEventListener('mouseenter', () => {
-    blogPost.classList.toggle('red');
+    blogPost.classList.toggle('red')
   })
 })
 
